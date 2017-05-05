@@ -1,0 +1,17 @@
+/* CSS file placeholder. */
+div {
+  display: flex;
+}
+
+div * {
+  flex: 1;
+  margin-bottom: 0.3em;
+}
+
+#status {
+  margin-right: 0.5em;
+}
+
+#port {
+  flex: 5;
+}

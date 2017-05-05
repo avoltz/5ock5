@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>5ock5 proxy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div>
+    <input id="status" type="button" value="unknown" disabled="true" />
+    <input id="verify" type="button" value="Verify" />
+    <input id="kill" type="button" value="kill" />
+  </div>
+  <div class="host">
+    <input id="host" placeholder="Hostname (e.g, '127.0.0.1')" type="text" minlength="1" value="" disabled="true" />
+  </div>
+  <div class="port">
+    <input id="port" placeholder="Port" type="text" maxlength="5" minlength="4" value="" disabled="true" />
+  </div>
+  <div class="bypass">
+    <textarea id="bypass" placeholder="Bypass domains (e.g, 'foo.com,bar.net')" type="text" value="" disabled="true"></textarea>
+  </div>
+  <script src="proxystatus.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

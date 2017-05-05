@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "5 socks",
+  "short_name": "5 socks",
+  "description": "5 Socks is a simple helper to enable SOCKS5",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [ "proxy", "storage"],
+
+  "icons": {
+    "16": "assets/socks5-3-allopaque16.png",
+    "128": "assets/socks5-3-allopaque.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
